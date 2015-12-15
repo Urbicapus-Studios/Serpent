@@ -217,6 +217,7 @@ def main():
         sys.exit(1)
     elif selection == "clear":
         os.system("clear")
+        main();
     else:
         print "Type help to learn commands..."
         main();
